@@ -1,0 +1,63 @@
+
+.parent{
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 300px;
+  height: auto;
+  }
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* Background color is white */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #009900; /* Green border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 30px;
+  }
+  
+  .green-button {
+    background-color: #00aa00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    border: 2px solid #c3ecbe;
+    
+    padding: 10px;
+    text-align: center;
+    color: rgb(19, 18, 18);
+  }
+  
+  .order-table th {
+    background-color: #008800; /* Darker green for table header */
+    font-weight: bold;
+  }
+  

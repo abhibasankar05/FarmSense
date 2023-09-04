@@ -1,0 +1,64 @@
+.parent{
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 300px;
+  height: auto;
+  }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0); /* Black color for the title */
+  }
+  
+  .green-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #00aa00; /* Green color theme for the table */
+    /* Darker green border for the table */
+    border-radius: 5px;
+    color: white; /* White text color for table content */
+  }
+  
+  /* Style for the first column with dark green background */
+  td.column-1 {
+    width: 25%; /* 1:4 width ratio for column 1 */
+    background-color: #008800; /* Dark green background color */
+    color: white; /* White text color */
+  }
+  
+  /* Style for the second column with light green background */
+  td.column-2 {
+    width: 75%; /* 1:4 width ratio for column 2 */
+    background-color: #aff7af; /* Light green background color */
+    font-weight: bold;
+    color:black; /* White text color */
+  }
+  
+  td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .green-button {
+    background-color: #00aa00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

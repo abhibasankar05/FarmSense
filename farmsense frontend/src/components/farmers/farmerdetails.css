@@ -1,0 +1,47 @@
+.parent{
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 300px;
+  height: auto;
+}
+
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.data-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse;
+}
+
+.attribute {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 25%; /* 1:4 column ratio */
+  background-color: #4CAF50; /* Green color theme */
+  color: rgb(255, 255, 255); /* White text color for attributes */
+  font-weight: bold; /* Bold text for attributes */
+}
+
+.value {
+  padding: 8px;
+  border: 1px solid white;
+  width: 75%; /* 1:4 column ratio */
+  background-color: #c9fbc6;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; /* Background color for values */
+}
+
+.header-image {
+  max-width: 11%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 3px solid #0e770e;
+  margin-left: 26px;
+
+}

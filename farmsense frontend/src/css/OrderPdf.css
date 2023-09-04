@@ -1,0 +1,35 @@
+.parent1{
+    margin-left: 300px;
+    margin-right: 150px;
+}
+
+.billtable{
+
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-left: 40px;
+  border-spacing: 10px; 
+    
+}
+th {
+    border: 1px solid rgb(28, 116, 54);
+    padding: 8px;
+    
+  }
+table{
+    border-collapse: collapse;
+    border-spacing: 100px; 
+    width: 100%;
+}
+
+  td {
+    border: 1px solid rgb(28, 116, 54);
+    padding: 8px;
+    
+  }
+
+
+ .green-button{
+   margin: 20px;
+ }
+ 

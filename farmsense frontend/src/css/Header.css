@@ -1,0 +1,66 @@
+
+.parentdiv{
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    margin-left: 287px;
+    margin-bottom: 10px;
+    height: 98px;
+    background-color: rgb(236, 255, 228); 
+}
+
+
+.parentdiv .tabname{
+   
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 70px;
+    width: fit-content;
+    text-decoration: none;
+    background-color: rgb(236, 255, 228);
+    align-items: center;
+    
+    border-radius: 10px;
+}
+
+.parentdiv .tabname .tabtext{
+   color: rgb(30, 153, 40);
+   font-size: 30px;
+   padding: 20px;
+
+
+}
+
+
+.profile-container {
+    display: inline-block;
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-align: center;
+    margin: 15px;
+
+  }
+  
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: #d5d6d5 solid;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    color: rgb(30, 153, 40);
+    margin: 9px;
+  }

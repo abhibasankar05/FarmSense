@@ -1,0 +1,75 @@
+
+
+
+
+    .container {
+        margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 300px;
+  height: auto;
+  padding: 50px;
+        
+        
+      }
+      
+      .left-side {
+        flex: 1;
+        text-align: center;
+        padding-left: 20px;
+        display: inherit;
+        margin-right: 150px;
+
+        
+      }
+      
+      .title {
+        font-size: 24px;
+        margin-right: 50px;
+      }
+      
+      .billing-history-button {
+        background-color: #008000; /* Green button background color */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        
+      }
+      
+      .right-side {
+        flex: 1;
+        text-align: center;
+      }
+      
+      .bill-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-right: 100px;
+        margin-right: 100px;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input {
+        padding: 5px;
+        width: 100%;
+      }
+      
+      .create-bill-button {
+        background-color: #008000; /* Green button background color */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .billing-history-button {
+        margin: 10px;
+      }
+      
